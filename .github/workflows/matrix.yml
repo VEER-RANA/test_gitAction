@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Log node node-version
         run: node -v
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '10.x'
+      # - uses: actions/setup-node@v1
+      #   with:
+      #     node-version: '10.x'
       - name: Log node node-version
         run: node -v
